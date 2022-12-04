@@ -4,9 +4,9 @@ import TaskList from "./components/TaskList";
 
 function App() {
   return (
-    <main className="bg-zinc-900 lg:h-screen sm:h-1/6 sm:bg-zinc-900">
+    <main className="bg-zinc-900 h-screen">
       <div className="container mx-auto p-10">
-        <TaskForm />
+        <TaskForm/>
         <TaskList />
       </div>
     </main>
